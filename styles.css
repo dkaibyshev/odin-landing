@@ -16,23 +16,10 @@ a {
   color: inherit;
 }
 
-img {
-  width: 100%;
-  max-width: 620px;
-  min-width: 155px;
-
-  height: auto;
-  max-height: 225px;
-  min-height: 51px;
-
-  object-fit: cover;
-}
-
 .header {
   display: flex;
   flex-flow: column;
   background-color: #1F2937;
-  padding-bottom: 152px;
 }
 
 .links {
@@ -61,7 +48,7 @@ img {
 .hero-content {
   display: flex;
   justify-content: space-between;
-  padding: 184px 289px 0px;
+  padding: 90px 289px 90px;
 }
 
 .hero-maintext h2 {
@@ -93,4 +80,81 @@ img {
 .hero-image {
   width: 600px;
   height: 225px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 620px;
+  min-width: 155px;
+
+  height: auto;
+  max-height: 225px;
+  min-height: 51px;
+
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.info-main {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin: 50px;
+}
+
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  text-align: center;
+}
+
+.info-card img:hover {
+  border-radius: 10px;
+  background-color: #3882F6; 
+  padding: 5px 5px; 
+  cursor: pointer; 
+}
+
+.subtext {
+  font-size: 18px;
+  color: #1F2937;
+  max-width: 170px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.quote-text {
+  font-weight: 300;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  max-width: 790px;
+}
+
+.quote-author {
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+  justify-content: flex-end;
+  margin-left: 490px;
 }
