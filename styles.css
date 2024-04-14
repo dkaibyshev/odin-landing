@@ -158,3 +158,36 @@ a {
   justify-content: flex-end;
   margin-left: 490px;
 }
+
+.promo {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 45px 170px 45px 170px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+.promo-main {
+  font-weight: 600;
+  font-size: 24px;
+  gap: 10px;
+}
+
+.promo-sub {
+  color:#e5e7eb;
+}
+
+.second {
+  border: 2px solid #f9faf8;
+  margin-left: 200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #f9faf8;
+  padding: 25px;
+}
